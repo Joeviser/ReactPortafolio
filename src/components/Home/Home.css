@@ -1,10 +1,12 @@
 
 .home {
     text-align: center;
-    padding: 20px;
+    padding: 80px;
   }
   
 .home img {
-    padding-right: 15px;
-    width: 65px;
+    border-radius: 50%;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
