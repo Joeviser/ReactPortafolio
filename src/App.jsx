@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename={`/ReactPortafolio`}>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
