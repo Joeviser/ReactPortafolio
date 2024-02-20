@@ -1,10 +1,25 @@
+
+import { Link, Route, Routes } from 'react-router-dom';
+import photo from "../../images/MIS.jpg";
+import "../Home/Home.css";
+
 function Home() {
+    
+
     return (
       <>
-        <h1>Home </h1>
+    
+        {/* //<img src={photo} alt="My Photo" /> */}
+        <h1>Isabel Solana</h1>
         <p>
-          No, no, no! Yes, yes. A bit. But she's got a wart. The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
+         Freelance frond end developer based in London. I specialise in building responsive, user-friendly websites and applications using HTML, CSS, JavaScript and React.
+         Enrolled in a Frond-End development bootcamp with EdX.
         </p>
+        <h2> Welcome to my Portfolio page</h2>
+        <Link to="/projects" role="button" className="btn btn-link">
+          Projects
+        </Link>
+       
       </>
     );
   }
