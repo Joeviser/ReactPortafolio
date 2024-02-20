@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Bootstrap Portafolio",
+        "description": "Showcasing Bootstrap/HTML/CSS skills",
+        "image": "https://github.com/Joeviser/BootStrapPortafolio/raw/main/starter/images/repositorybootstrap.png",
+        "deployedLink": "https://joeviser.github.io/BootStrapPortafolio/",
+        "githubLink": "https://github.com/Joeviser/BootStrapPortafolio.git"
+      },
+    {
+      "id": 2,
+      "title": "Grin And Gin",
+      "description": "Cocktail mixing",
+      "image": "https://github.com/Anna702/GrinAndGin/raw/main/Images/screencapture-full-page.png", 
+      "deployedLink": "https://anna702.github.io/GrinAndGin/",
+      "githubLink": "https://github.com/Anna702/GrinAndGin"
+    },
+    {
+      "id": 3,
+      "title": "Work Daily Scheduler",
+      "description": "Showcasing Bootstrap/HTML/CSS skills",
+      "image": "https://github.com/Joeviser/DailyPlanner/raw/main/images/screenshotDailyPlanner.png",
+      "deployedLink": "https://joeviser.github.io/DailyPlanner/",
+      "githubLink": "https://github.com/Joeviser/DailyPlanner.git"
+    }
+   
+]
