@@ -3,7 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-
+import "../Contact/Contact.css";
 
 
  const Contact = () => {
@@ -49,18 +49,21 @@ import emailjs from '@emailjs/browser';
     <>
       <h1>Contact Me</h1>
       <p>
-        Bring her forward! The Knights Who Say Ni demand a sacrifice! I have to push the pram a lot. I'm not a witch. Well, what do you want? Well, I got better. Oh! Come and see the violence inherent in the system! Help, help, I'm being repressed!
+       Are you interested in my work or have any questions about it? Get in touch and send me a message.
      </p>
         <form onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" disabled={isSubmitting} />
-      {stateMessage && <p>{stateMessage}</p>}
-    </form>
+        <div className="form-box">
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            {/* <button type="submit" value="Send" disabled={isSubmitting} /> */}
+            <button className="sendBtn" type="submit">Send</button>
+            {stateMessage && <p>{stateMessage}</p>}
+        </div>
+        </form>
      
     </>
   );

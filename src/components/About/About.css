@@ -1,12 +1,13 @@
-
-.home {
+.about {
     text-align: center;
     padding: 30px;
   }
   
-.home img {
+.about ul {
     border-radius: 50%;
     max-width: 400px;
     margin-top: 20px;
     margin-bottom: 30px;
+    display: inline-block;
+  text-align: left;
   }
